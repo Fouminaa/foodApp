@@ -26,7 +26,7 @@
 </template>
 <script>
 export default {
-  name: "Footer",
+  name: "FooterNav",
    data: () => ({ value:  2}),
 };
 </script>

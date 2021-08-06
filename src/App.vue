@@ -3,7 +3,7 @@
     <v-main>
       <Navbar/>
       <Foodcard/>
-      <Footer/>
+      <FooterNav/>
     </v-main>
   </v-app>
 </template>
@@ -12,20 +12,15 @@
 
 import Navbar from './components/Navbar.vue';
 import Foodcard from './components/Foodcard.vue';
-import Footer from './components/Footer.vue';
+import FooterNav from './components/FooterNav.vue'
 
 export default {
   name: 'App',
 
   components: {
-    
     Navbar,
     Foodcard,
-    Footer
+    FooterNav
   },
-
-  data: () => ({
-    //
-  }),
 };
 </script>
