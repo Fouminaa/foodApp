@@ -1,8 +1,9 @@
 <template>
   <v-app>
     <v-main>
-      <navbar/>
-      <foodcard/>
+      <Navbar/>
+      <Foodcard/>
+      <Footer/>
     </v-main>
   </v-app>
 </template>
@@ -11,6 +12,7 @@
 
 import Navbar from './components/Navbar.vue';
 import Foodcard from './components/Foodcard.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
@@ -18,7 +20,8 @@ export default {
   components: {
     
     Navbar,
-    Foodcard
+    Foodcard,
+    Footer
   },
 
   data: () => ({
